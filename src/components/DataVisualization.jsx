@@ -52,7 +52,7 @@ const DataVisualization = ({ data }) => {
           className={`py-2 px-4 font-medium ${activeTab === 'vehicles' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
           onClick={() => setActiveTab('vehicles')}
         >
-          Vehículos
+          Vehiculos
         </button>
         <button
           className={`py-2 px-4 font-medium ${activeTab === 'riskFactors' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
